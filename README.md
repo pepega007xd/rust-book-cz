@@ -1,2 +1,7 @@
-# The czech translation of the Rust Book
-This repository contains the czech translation of [The Rust Programming Language](https://github.com/rust-lang/book).
+# Programovací jazyk Rust
+Tento repozitář obsahuje český překlad knihy [The Rust Programming Language](https://github.com/rust-lang/book).
+
+Překlad aktuálně probíhá.
+
+## TODO
+ - nastavit nejaky autobuild na githubu -> title-page.md
