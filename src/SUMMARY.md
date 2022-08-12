@@ -8,5 +8,5 @@
 
 - [Začínáme](ch01-00-getting-started.md)
     - [Instalace](ch01-01-installation.md)
-    - [Ahoj světe!](ch01-02-hello-world.md)
-    - [Ahoj Cargo!](ch01-03-hello-cargo.md)
+    - [Ahoj, světe!](ch01-02-hello-world.md)
+    - [Ahoj, Cargo!](ch01-03-hello-cargo.md)
