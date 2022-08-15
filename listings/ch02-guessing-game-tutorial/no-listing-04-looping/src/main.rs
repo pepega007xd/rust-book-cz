@@ -1,0 +1,40 @@
+use rand::Rng;
+use std::cmp::Ordering;
+use std::io;
+
+fn main() {
+    println!("Guess the number!");
+
+    let secret_number = rand::thread_rng().gen_range(1..=100);
+
+    // ANCHOR: here
+    // --snip--
+
+    println!("Tajné číslo: {secret_number}");
+
+    loop {
+        println!("Zadejte svůj tip:");
+
+        // --snip--
+
+        // ANCHOR_END: here
+
+        let mut guess = String::new();
+
+        io::stdin()
+            .read_line(&mut guess)
+            .expect("Failed to read line");
+
+        let guess: u32 = guess.trim().parse().expect("Napište číslo.");
+
+        println!("You guessed: {guess}");
+
+        // ANCHOR: here
+        match guess.cmp(&secret_number) {
+            Ordering::Less => println!("Příliš malé číslo."),
+            Ordering::Greater => println!("Příliš velké číslo."),
+            Ordering::Equal => println!("Vyhráli jste!"),
+        }
+    }
+}
+// ANCHOR_END: here
