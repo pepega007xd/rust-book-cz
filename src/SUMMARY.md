@@ -10,3 +10,5 @@
     - [Instalace](ch01-01-installation.md)
     - [Ahoj, světe!](ch01-02-hello-world.md)
     - [Ahoj, Cargo!](ch01-03-hello-cargo.md)
+
+- [Programování hádací hry](ch02-00-guessing-game-tutorial.md)
